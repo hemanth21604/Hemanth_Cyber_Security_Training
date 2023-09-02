@@ -16,7 +16,7 @@ int main()
     {
     s=s+a[i];
     }
-    avg=s/6;
+    avg=s/n;
      printf("%f",avg);
     return 0;
 }
