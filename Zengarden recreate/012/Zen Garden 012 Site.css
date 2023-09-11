@@ -1,0 +1,234 @@
+body{
+    background-image: url('to_pageback.gif');
+    background-image: repeat;
+    margin: 0;
+    padding:0;
+}
+
+div{
+    margin: 0px;
+    padding: 10px;
+}
+.page-wrapper
+{
+    position: absolute;
+    margin: 0 28.5%;
+    height: 1600px;
+  
+   
+    margin-bottom: 40px;
+    background: url("bandwidthkiller.jpg") no-repeat bottom;
+
+    background-color:#404040;
+}
+
+header h1
+{
+    background-image: url('to_header_01.jpg');
+    background-repeat: no-repeat;
+    height: 150px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ header h2
+{
+    position: absolute;
+    font-size:15px;
+    color:darkgrey;
+    text-align: right;
+    right: 0px;
+    top: 0px; 
+}
+
+h3{
+    color: goldenrod;
+    text-indent: 5%;
+    background-image:url('to_h3back_04.gif') ;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.summary p::first-letter
+{
+    font: 1.5em/15pt "Georgia", sans-serif;
+}
+
+.summary p
+{
+    color: rgb(137, 136, 136);
+    text-transform:uppercase;
+    font-size: small;
+    width: 150px;
+    text-align: center;
+    font: 9px/20px georgia, tahoma, verdana, arial, sans-serif;
+}
+
+.summary p:nth-child(1) 
+{
+    margin: 30px 30px 0 0;
+    padding: 10px;
+    text-transform: uppercase;
+    font: bolder small-caps 0.6em/1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: 0.1px solid rgb(12, 12, 12,0.5);
+    width: 23%;
+    height:auto;
+    border: 1px solid #23282C;
+    color: #FFAE00;
+    line-height: 13px;
+    text-align: left;
+    }
+
+.summary
+{
+    line-height: 0.1px;    
+}
+
+.summary a
+{
+    color:rgb(213, 205, 205)
+}
+.preamble{
+    position: absolute;
+    top: 180px;
+    left: 232px;
+    right:10px;
+    height: 330px;
+    background:url('zen-image.jpg');
+    margin: 0;
+    
+}
+
+.preamble p
+{
+    margin: 0;
+    color: white;
+    padding-left: 60px;
+    font-weight:900;
+    padding: 5px 30px;
+    width: 300px;
+    padding-left: 100px;
+}
+
+.explanation
+{
+    position: absolute;
+    top: 530px;
+    left: 232px;
+    color:#cccccc;
+    font-size: small;
+    text-align: left;
+}
+
+.participation 
+{
+    position: absolute;
+    top: 710px;
+    left: 232px;
+    color:#cccccc;
+    font-size: small;
+    text-align: left;
+}
+
+.benefits
+{
+    position: absolute;
+    top: 950px;
+    left: 232px;
+    color:#cccccc;
+    font-size: small;
+    text-align: left;
+}
+
+.requirements
+{
+    position: absolute;
+    top: 1060px;
+    left: 232px;
+    color:#cccccc;
+    font-size: small;
+    text-align: left;
+}
+
+a
+{
+    color:#FFAE00;
+    text-decoration: none;
+}
+.sidebar{
+    position:absolute;
+    top: 400px;
+}
+.sidebar ul 
+{
+    list-style: none;
+    margin: 0;
+}
+.wrapper{
+    position: relative;
+    width: 199px;
+}
+.wrapper a
+{    
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+nav li
+{
+    color:darkgray;
+    list-style-image: url('ani1.gif');
+}
+
+.wrapper ul
+{
+    background: url('to_leftcol_02.jpg');
+    width: 135px;
+    border: 1px solid black;
+}
+
+#designer-name
+{
+    color: yellow;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.wrapper h3 {   text-indent: 30px;  }
+
+.design-name
+{
+    display: block;
+    align-items: center;
+}
+
+.main-supporting p
+{
+    background: #61605F;
+    margin: 0;
+    padding-top: 10px;
+    
+}
+.page-wrapper footer
+{
+    background: url('to_footerback_07.gif') no-repeat;
+    
+   position:relative;
+   top: 935px;
+   width: 200px;
+   height: 30px;
+   text-align: center;
+   padding-top: 30px;
+}
+
+.zen-resources
+{
+    text-align: left;
+}
+
+
+
