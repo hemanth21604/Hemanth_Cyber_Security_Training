@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Reference</title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+  <div class="nav_div">
+
+    <h1>Flex Practice Site<br></h1>
+  <ul>
+    <li><a href="#body2">Flex Direction</a>
+    <li><a href="#body3">Flex wrap</a>
+    <li><a href="#body4">justify content</a>
+    <li><a href="#body5">align items</a>
+    <li><a href="#body6">Flex flow</a>
+  </ul>
+  </div>
+
+<div class="body1">
+  <h1><center>Flex Definition</center></h1>
+  <div class="img">
+  <div>
+     <h2>What is Flex in CSS ?</h2>
+     <h3>CSS Flexible Box Layout, commonly known as Flexbox,<br> is a CSS 3 web layout model.</h4>
+  </div>
+  <img src="fleximg1.png">
+</div>
+</div>
+
+<div id="body2"  class="body2">
+  <h1><center>Flex Direction</center></h1>
+  <div class="split">
+    <div>
+      <h2>How Flex direction Works in Css?</h2>
+      <h3>The flex-direction CSS property sets how flex items <br>are placed 
+        in the flex container defining the main <br>axis and the direction (normal or reversed).</h4>
+      <div class="img">
+      <img src="direction.png"></div>
+    </div>
+    <div>
+      <div>
+        <h4>flex-direction:row;</h4>
+      </div>
+      <div class="r1">
+        <div class="items"><p>1</div>
+        <div class="items"><p>2</div>
+        <div class="items"><p>3</div>
+      </div>
+      <div>
+        <div>
+          <h4>flex-direction:column;</h4>
+        </div>
+        <div class="r2">
+          <div class="items"><p>1</div>
+          <div class="items"><p>2</div>
+          <div class="items"><p>3</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div>
+          <h4>flex-direction:row-reverse;</h4>
+        </div>
+        <div class="r3">
+          <div class="items"><p>1</div>
+          <div class="items"><p>2</div>
+          <div class="items"><p>3</div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h4>flex-direction:column-reverse;</h4>
+        </div>
+        <div class="r4">
+          <div class="items"><p>1</div>
+          <div class="items"><p>2</div>
+          <div class="items"><p>3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="body3" class="body3">
+  <h1><center>Flex Wrap</center></h1>
+  <div class="split2">
+      <div class="split1">
+          <div class="p">
+            <div>
+                <h4>flex-wrap:wrap;</h4>
+                <div class="r5">
+                    <div class="items"><p>1</div>
+                    <div class="items"><p>2</div>
+                    <div class="items"><p>3</div>
+                    <div class="items"><p>4</div>
+                    <div class="items"><p>5</div>
+                    <div class="items"><p>6</div> 
+                    <div class="items"><p>7</div> 
+                </div>
+             </div>
+           <div>
+               <h4>flex-wrap:wrap-reverse;</h4>
+                <div class="r6">
+                    <div class="items"><p>1</div>
+                    <div class="items"><p>2</div>
+                    <div class="items"><p>3</div>
+                    <div class="items"><p>4</div>
+                    <div class="items"><p>5</div>
+                    <div class="items"><p>6</div> 
+                    <div class="items"><p>7</div> 
+                </div>
+              </div>
+          </div>
+            <div class="s">
+            <div>
+              <h4>flex-wrap:nowrap;</h4>
+                <div class="r7">
+                    <div class="items"><p>1</div>
+                    <div class="items"><p>2</div>
+                    <div class="items"><p>3</div>
+                    <div class="items"><p>4</div>
+                    <div class="items"><p>5</div>
+                    <div class="items"><p>6</div> 
+                    <div class="items"><p>7</div> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <div>
+              <h2>How Flex wrap works in CSS?</h2>
+              <h3>The flex-wrap CSS property sets whether flex items are forced<br> onto one line or can wrap 
+              onto multiple lines. If wrapping <br>is allowed, it sets the direction that lines are stacked.</h4><br><br><br>
+                <img src="wrap.png">
+          </div>
+    </div>
+  </div>
+</div>
+
+<div id="body4" class="body4">
+  <h1><center>Justify-Content</center></h1>
+  <div class="split">
+    <div class="img1">
+      <img src="justify-content.png">
+      <div>
+        <h2>How justify-Content <br>property works in CSS ?</h2>
+        <h3>The CSS justify-content property defines how the browser<br> distributes space between and around content 
+        items along<br> the main-axis of a flex container,<br> and the inline axis of a grid container.</h4>
+    </div>
+  </div>
+         <div class="overrow">
+            <div>
+              <h4>justify-Content:flex-start;</h4>
+                      <div class="r8">
+                        <div class="items"><p>1</div>
+                        <div class="items"><p>2</div>
+                        <div class="items"><p>3</div>
+                      </div>
+            </div>
+            <div>
+              <h4>justify-Content:flex-center;</h4>
+                      <div class="r9">
+                        <div class="items"><p>1</div>
+                        <div class="items"><p>2</div>
+                        <div class="items"><p>3</div>
+                      </div>
+            <div>
+              <h4>justify-Content:space-evenly;</h4>
+                       <div class="r10">
+                         <div class="items"><p>1</div>
+                         <div class="items"><p>2</div>
+                         <div class="items"><p>3</div>
+                      </div>
+            </div>
+            </div>
+          </div>
+                      <div>
+                        <h4>justify-Content:flex-end;</h4>
+                                <div class="r11">
+                                  <div class="items"><p>1</div>
+                                  <div class="items"><p>2</div>
+                                  <div class="items"><p>3</div>
+                                </div>
+                      <div>
+                        <h4>justify-Content:space-around;</h4>
+                              <div class="r12">
+                                <div class="items"><p>1</div>
+                                <div class="items"><p>2</div>
+                                <div class="items"><p>3</div>
+                              </div>
+                    </div>
+                    <div>
+                      <h4>justify-Content:space-between;</h4>
+                              <div class="r13">
+                                <div class="items"><p>1</div>
+                                <div class="items"><p>2</div>
+                                <div class="items"><p>3</div>
+                              </div>
+                    </div>
+          </div>    
+</div>
+</div>
+
+<div id="body5" class="body5">
+  <h1><center>Align-items</center></h1>
+  <div class="split">
+    <div class="overrow">
+      <div>
+        <h4>align-items:flex-start;</h4>
+                <div class="r14">
+                  <div class="items"><p>1</div>
+                  <div class="items"><p>2</div>
+                  <div class="items"><p>3</div>
+                  <div class="items"><p>4</div>
+                </div>
+      </div>
+      <div>
+        <h4>align-items:center;</h4>
+                <div class="r15">
+                  <div class="items"><p>1</div>
+                  <div class="items"><p>2</div>
+                  <div class="items"><p>3</div>
+                  <div class="items"><p>4</div>
+                </div>
+                <div>
+                  <h4>align-items:baseline;</h4>
+                          <div class="r16">
+                            <div class="items" style="height: 60px;"><p style="font-size: 30px;">1</div>
+                            <div class="items" style="height: 80px;"><p style="font-size: 25px;">2</div>
+                            <div class="items" style="height: 100px;"><p style="font-size: 50px;">3</div>
+                            <div class="items" style="height: 120px;"><p style="font-size: 20px;">4</div>
+                          </div>
+                </div>
+      </div>
+    </div>
+    <div>
+      <div class="overrow">
+        <div>
+          <h4>align-items:flex-end;</h4>
+                  <div class="r17">
+                    <div class="items"><p>1</div>
+                    <div class="items"><p>2</div>
+                    <div class="items"><p>3</div>
+                    <div class="items"><p>4</div>
+                  </div>
+        </div>
+      <div class="s">
+        <div>
+          <h4>align-items:stretch;</h4>
+                  <div class="r18">
+                    <div class="items" style="height: 80px;"><p>1</div>
+                    <div class="items" style="height: 100px;"><p>2</div>
+                    <div class="items" style="height: 120px;"><p>3</div>
+                    <div class="items" style="height: 150px;"><p>4</div>
+                  </div>
+        </div>
+      </div>    
+      </div>
+    </div>
+    <div>
+       <h2>How align items flex property <br>used in CSS ?</h2>
+       <h3>The align-items property is used to set the alignment<br> of items inside 
+      the flexible container or in the given window.<br> It aligns the Flex Items across the axis.
+      The align-self property <br>is used to override the align-items property.</h4><br><br><br>
+      <div class="img">
+        <img src="align-items.png" width="720px" height="460px">
+      </div>
+    </div>
+</div>
+  </div>
+</div>
+
+<div id="body6" class="body6">
+  <h1><center>Flex-flow</center></h1>
+  <div class="split">
+       <div class="img1">
+                  <img src="flex-flow1.png" style="padding-left: 5px;">
+                  <img src="flex-flow1.png" style="padding-left: 10px;">
+                  <img src="flex-flow1.png" style="padding-left: 10px;">       
+                   <h2>How Flex-flow Property works in <br>Cascading Style Sheet ?</h2>
+                   <h3>The flex-flow CSS shorthand property specifies the direction<br> of a flex container, as well as its wrapping behavior.</h4>
+        </div>
+        <div class="overrow">
+          <div>
+            <h4>flex-flow : row wrap;</h4>
+                    <div class="r19">
+                      <div class="items"><p>1</div>
+                      <div class="items"><p>2</div>
+                      <div class="items"><p>3</div>
+                      <div class="items"><p>4</div>
+                      <div class="items"><p>5</div>
+                      <div class="items"><p>6</div>
+                      <div class="items"><p>7</div>
+                      <div class="items"><p>8</div>
+                    </div>
+          </div>
+          <div>
+            <h4>flex-flow : column wrap;</h4>
+                    <div class="r20">
+                      <div class="items"><p>1</div>
+                      <div class="items"><p>2</div>
+                      <div class="items"><p>3</div>
+                      <div class="items"><p>4</div>
+                      <div class="items"><p>5</div>
+                      <div class="items"><p>6</div>
+                      <div class="items"><p>7</div>
+                      <div class="items"><p>8</div>
+                    </div>
+        </div>
+        </div> 
+        <div>
+          <h4>flex-flow : row-reverse nowrap;</h4>
+                  <div class="r21">
+                    <div class="items"><p>1</div>
+                    <div class="items"><p>2</div>
+                    <div class="items"><p>3</div>
+                    <div class="items"><p>4</div>
+                    <div class="items"><p>5</div>
+                    <div class="items"><p>6</div>
+                    <div class="items"><p>7</div>
+                    <div class="items"><p>8</div>
+                  </div>
+        <div>
+          <h4>flex-flow : column wrap-reverse;</h4>
+                <div class="r22">
+                  <div class="items"><p>1</div>
+                  <div class="items"><p>2</div>
+                  <div class="items"><p>3</div>
+                  <div class="items"><p>4</div>
+                  <div class="items"><p>5</div>
+                  <div class="items"><p>6</div>
+                  <div class="items"><p>7</div>
+                  <div class="items"><p>8</div>
+                </div>
+      </div>
+      
+      </div>    
+   </div>
+</div>
+</body>
+</html>
